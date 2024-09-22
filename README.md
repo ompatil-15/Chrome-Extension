@@ -12,13 +12,13 @@ With the SHIELD Password Generator, you can ensure that your passwords are both 
 ## Installation
 
 1. **Clone the Repository**:
-   - Open your terminal and run:
+   Open your terminal and run:
      ```bash
      git clone https://github.com/yourusername/shield-password-generator.git
      ```
 
 2. **Navigate to the Directory**:
-   - Change to the extension's directory:
+   Change to the extension's directory:
      ```bash
      cd shield-password-generator
      ```
