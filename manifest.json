@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "SHIELD Password Manager",
+    "version": "1.0",
+    "description": "A browser extension to manage your passwords",
+    "permissions": ["activeTab", "storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "shieldLogo.png"
+    },
+    "icons": {
+      "16": "shieldLogo.png",
+      "48": "shieldLogo.png",
+      "128": "shieldLogo.png"
+    }
+  }
+  
