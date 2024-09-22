@@ -15,12 +15,12 @@
     ],
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "shieldLogo.png"
+      "default_icon": "images/shieldLogo.png"
     },
     "icons": {
-      "16": "shieldLogo.png",
-      "48": "shieldLogo.png",
-      "128": "shieldLogo.png"
+      "16": "images/shieldLogo.png",
+      "48": "images/shieldLogo.png",
+      "128": "images/shieldLogo.png"
     }
   }
   
